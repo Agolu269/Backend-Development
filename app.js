@@ -1,3 +1,4 @@
+
 const express = require("express");
 
 const app = express();
@@ -11,7 +12,8 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
     res.status(200).json({
         name: "Sai Charan",
-        section: "Your Section"
+        registrationNumber : "252U1R8002",
+        section : "CSE QE (2A)"
     });
 });
 
